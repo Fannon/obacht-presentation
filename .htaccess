@@ -1,0 +1,7 @@
+Redirect /android https://play.google.com/store/apps/details?id=com.obacht.game
+Redirect /android.html https://play.google.com/store/apps/details?id=com.obacht.game
+
+Redirect /apple https://itunes.apple.com/us/app/obacht/id666113251?mt=8
+Redirect /apple.html https://itunes.apple.com/de/app/obacht/id666113251?mt=8
+
+Redirect /browser /play/index.html

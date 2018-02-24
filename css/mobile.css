@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+@media screen and (max-width: 1000px) {
+	
+	/* =============================================================================
+    GENERALS
+    ========================================================================== */
+	
+
+	
+	p, a {
+	    font-size: 20px;
+	}
+	
+	a, .pseudo_link {
+	    line-height: 2.3;
+	}
+	
+	
+	
+	.hide {
+	    display: none;
+	}
+	
+	.m-wrapper{
+		display: block;
+		overflow: hidden;
+		width: 100%;
+		padding: 10%;	
+	}
+	
+	.m-wrapper-left{
+		display: block;
+		overflow: hidden;
+		width: 110%;
+		padding-right: 10%;
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+	
+	.m-wrapper-right {
+		display: block;
+		overflow: hidden;
+		width: 110%;
+		padding-left: 10%;
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+	
+	.arrow{
+		display: none;
+	} 
+	
+	/* =============================================================================
+    CONTENT BOX 1
+    ========================================================================== */
+	
+	.single_box{
+		width: 100%;
+	}
+	
+	#logo_header{
+		width: 100%;
+	}
+	
+	/* =============================================================================
+    CONTENT BOXES
+    ========================================================================== */
+	
+	.content_box_left {
+	    float: left;
+	    width: 50%;
+	}
+	
+	.content_box_right {
+	    float: left;
+	    width: 50%;
+	}
+	
+	.m_content_box_right{
+		width: 50%;
+		float: right; !important
+	}
+	
+	.m_content_box_left{
+		width: 50%;
+		float: right; !important
+	}
+	
+	
+	.flex_gfx{
+		width: 100%;
+	}
+} 
+
+

@@ -1,0 +1,69 @@
+/* Normalize CSS */
+* {
+    vertical-align: baseline;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-weight: normal;
+    border: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1.25;
+    text-decoration: none;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+}
+
+/**
+ * 	OBACHT STYLES
+ */
+html {
+    background-color: #000000;
+    letter-spacing: 3px;
+}
+
+
+.lime-director {
+    background-image: url("../gfx/bg_clean.jpg");
+}
+
+/**
+ * Themes Background Gradients
+ *
+ * Tool for gradient - set angle to 24 degree
+ * http://www.colorzilla.com/gradient-editor/
+*/
+.desert {
+    background-image: none;
+    background: #fde7b5; /* Old browsers */
+    background: -moz-linear-gradient(24deg,  #ffffff 0%, #fefced 30%, #fde7b5 47%, #fde7b5 53%, #fefced 70%, #ffffff 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#ffffff), color-stop(30%,#fefced), color-stop(47%,#fde7b5), color-stop(53%,#fde7b5), color-stop(70%,#fefced), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(24deg,  #ffffff 0%,#fefced 30%,#fde7b5 47%,#fde7b5 53%,#fefced 70%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(24deg,  #ffffff 0%,#fefced 30%,#fde7b5 47%,#fde7b5 53%,#fefced 70%,#ffffff 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(24deg,  #ffffff 0%,#fefced 30%,#fde7b5 47%,#fde7b5 53%,#fefced 70%,#ffffff 100%); /* IE10+ */
+    background: linear-gradient(24deg,  #ffffff 0%,#fefced 30%,#fde7b5 47%,#fde7b5 53%,#fefced 70%,#ffffff 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.meadow {
+    background-image: none;
+    background: #b4d4ed; /* Old browsers */
+    background: -moz-linear-gradient(24deg,  #ffffff 0%, #f5fafe 30%, #b4d4ed 47%, #b4d4ed 53%, #f5fafe 70%, #ffffff 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#ffffff), color-stop(30%,#f5fafe), color-stop(47%,#b4d4ed), color-stop(53%,#b4d4ed), color-stop(70%,#f5fafe), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(24deg,  #ffffff 0%,#f5fafe 30%,#b4d4ed 47%,#b4d4ed 53%,#f5fafe 70%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(24deg,  #ffffff 0%,#f5fafe 30%,#b4d4ed 47%,#b4d4ed 53%,#f5fafe 70%,#ffffff 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(24deg,  #ffffff 0%,#f5fafe 30%,#b4d4ed 47%,#b4d4ed 53%,#f5fafe 70%,#ffffff 100%); /* IE10+ */
+    background: linear-gradient(24deg,  #ffffff 0%,#f5fafe 30%,#b4d4ed 47%,#b4d4ed 53%,#f5fafe 70%,#ffffff 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.water {
+    background-image: none;
+    background: #002cad; /* Old browsers */
+    background: -moz-linear-gradient(24deg,  #66a4ed 0%, #2464af 30%, #00428d 48%, #00428d 52%, #2464af 70%, #66a4ed 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#66a4ed), color-stop(30%,#2464af), color-stop(48%,#00428d), color-stop(52%,#00428d), color-stop(70%,#2464af), color-stop(100%,#66a4ed)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(24deg,  #66a4ed 0%,#2464af 30%,#00428d 48%,#00428d 52%,#2464af 70%,#66a4ed 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(24deg,  #66a4ed 0%,#2464af 30%,#00428d 48%,#00428d 52%,#2464af 70%,#66a4ed 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(24deg,  #66a4ed 0%,#2464af 30%,#00428d 48%,#00428d 52%,#2464af 70%,#66a4ed 100%); /* IE10+ */
+    background: linear-gradient(24deg,  #66a4ed 0%,#2464af 30%,#00428d 48%,#00428d 52%,#2464af 70%,#66a4ed 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66a4ed', endColorstr='#66a4ed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
